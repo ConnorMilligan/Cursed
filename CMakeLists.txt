@@ -30,7 +30,7 @@ include_directories(${SDL2_IMAGE_INCLUDE_DIRS})
 
 # Set the project files
 file(GLOB PROJECT_HEADERS src/*.h)
-file(GLOB PROJECT_SOURCES src/*.cpp)
+file(GLOB PROJECT_SOURCES src/*.c)
 file(GLOB PROJECT_CONFIGS CMakeLists.txt
                           Readme.md
                          .gitattributes
