@@ -1,0 +1,294 @@
+#ifndef CHARACTERS_H
+#define CHARACTERS_H
+
+
+// 0.
+#define CHAR_SMILY 1
+#define CHAR_SMILY_INV 2
+#define CHAR_HEART 3
+#define CHAR_DIAMOND 4
+#define CHAR_CLUB 5
+#define CHAR_SPADE 6
+#define CHAR_BULLET 7
+#define CHAR_BULLET_INV 8
+#define CHAR_RADIO_UNSET 9
+#define CHAR_RADIO_SET 10
+#define CHAR_MALE 11
+#define CHAR_FEMALE 12
+#define CHAR_NOTE 13
+#define CHAR_NOTE_DOUBLE 14
+#define CHAR_LIGHT 15
+
+// 1.
+#define CHAR_TRIANGLE_E 16
+#define CHAR_TRIANGLE_W 17
+#define CHAR_DARROW_V 18
+#define CHAR_EXCLAM_DOUBLE 19
+#define CHAR_PARAGRAPH 20
+#define CHAR_SECTION 21
+#define CHAR_RECTANGLE 22
+#define CHAR_DARROW_H_LINE 23
+#define CHAR_ARROW_N 24
+#define CHAR_ARROW_S 25
+#define CHAR_ARROW_E 26
+#define CHAR_ARROW_W 27
+#define CHAR_RIGHT_ANGLE 28
+#define CHAR_DARROW_H 29
+#define CHAR_TRIANGLE_N 30
+#define CHAR_TRIANGLE_S 31
+
+// 2.
+#define CHAR_WHITESPACE 32
+#define CHAR_EXCLAMATION 33
+#define CHAR_QUOTE 34
+#define CHAR_HASH 35
+#define CHAR_DOLLAR 36
+#define CHAR_PERCENT 37
+#define CHAR_AMPERSAND 38
+#define CHAR_APOSTROPHE 39
+#define CHAR_PARENTHESIS_L 40
+#define CHAR_PARENTHESIS_R 41
+#define CHAR_ASTERISK 42
+#define CHAR_PLUS 43
+#define CHAR_COMMA 44
+#define CHAR_MINUS 45
+#define CHAR_PERIOD 46
+#define CHAR_SLASH 47
+
+// 3.
+#define CHAR_0 48
+#define CHAR_1 49
+#define CHAR_2 50
+#define CHAR_3 51
+#define CHAR_4 52
+#define CHAR_5 53
+#define CHAR_6 54
+#define CHAR_7 55
+#define CHAR_8 56
+#define CHAR_9 57
+#define CHAR_COLON 58
+#define CHAR_SEMICOLON 59
+#define CHAR_LESS 60
+#define CHAR_EQUAL 61
+#define CHAR_GREATER 62
+#define CHAR_QUESTION 63
+
+// 4.
+#define CHAR_AT 64
+#define CHAR_A 65
+#define CHAR_B 66
+#define CHAR_C 67
+#define CHAR_D 68
+#define CHAR_E 69
+#define CHAR_F 70
+#define CHAR_G 71
+#define CHAR_H 72
+#define CHAR_I 73
+#define CHAR_J 74
+#define CHAR_K 75
+#define CHAR_L 76
+#define CHAR_M 77
+#define CHAR_N 78
+#define CHAR_O 79
+
+// 5.
+#define CHAR_P 80
+#define CHAR_Q 81
+#define CHAR_R 82
+#define CHAR_S 83
+#define CHAR_T 84
+#define CHAR_U 85
+#define CHAR_V 86
+#define CHAR_W 87
+#define CHAR_X 88
+#define CHAR_Y 89
+#define CHAR_Z 90
+#define CHAR_BRACKET_L 91
+#define CHAR_BACKSLASH 92
+#define CHAR_BRACKET_R 93
+#define CHAR_CARET 94
+#define CHAR_UNDERSCORE 95
+
+// 6.
+#define CHAR_GRAVE 96
+#define CHAR_a 97
+#define CHAR_b 98
+#define CHAR_c 99
+#define CHAR_d 100
+#define CHAR_e 101
+#define CHAR_f 102
+#define CHAR_g 103
+#define CHAR_h 104
+#define CHAR_i 105
+#define CHAR_j 106
+#define CHAR_k 107
+#define CHAR_l 108
+#define CHAR_m 109
+#define CHAR_n 110
+#define CHAR_o 111
+
+// 7.
+#define CHAR_p 112
+#define CHAR_q 113
+#define CHAR_r 114
+#define CHAR_s 115
+#define CHAR_t 116
+#define CHAR_u 117
+#define CHAR_v 118
+#define CHAR_w 119
+#define CHAR_x 120
+#define CHAR_y 121
+#define CHAR_z 122
+#define CHAR_BRACE_L 123
+#define CHAR_PIPE 124
+#define CHAR_BRACE_R 125
+#define CHAR_TILDE 126
+#define CHAR_DELTA 127
+
+// 8.
+#define CHAR_C_CEDILLA 128
+#define CHAR_U_UMLAUT 129
+#define CHAR_E_ACUTE 130
+#define CHAR_A_CIRCUMFLEX 131
+#define CHAR_A_UMLAUT 132
+#define CHAR_A_GRAVE 133
+#define CHAR_A_RING 134
+#define CHAR_c_CEDILLA 135
+#define CHAR_e_CIRCUMFLEX 136
+#define CHAR_e_UMLAUT 137
+#define CHAR_e_GRAVE 138
+#define CHAR_i_UMLAUT 139
+#define CHAR_i_CIRCUMFLEX 140
+#define CHAR_i_GRAVE 141
+#define CHAR_A_UMLAUT 142
+#define CHAR_A_RING 143
+
+// 9.
+#define CHAR_E_ACUTE 144
+#define CHAR_ae 145
+#define CHAR_AE 146
+#define CHAR_o_CIRCUMFLEX 147
+#define CHAR_o_UMLAUT 148
+#define CHAR_o_GRAVE 149
+#define CHAR_u_CIRCUMFLEX 150
+#define CHAR_u_GRAVE 151
+#define CHAR_y_UMLAUT 152
+#define CHAR_O_UMLAUT 153
+#define CHAR_U_UMLAUT 154
+#define CHAR_CENT 155
+#define CHAR_POUND 156
+#define CHAR_YEN 157
+#define CHAR_PESETA 158
+#define CHAR_FLORIN 159
+
+// A.
+#define CHAR_a_ACUTE 160
+#define CHAR_i_ACUTE 161
+#define CHAR_o_ACUTE 162
+#define CHAR_u_ACUTE 163
+#define CHAR_n_TILDE 164
+#define CHAR_N_TILDE 165
+#define CHAR_FEMININE 166
+#define CHAR_MASCULINE 167
+#define CHAR_QUESTION_INV 168
+#define CHAR_NOT 169
+#define CHAR_NOT_EQUAL 170
+#define CHAR_HALF 171
+#define CHAR_FRACTION 172
+#define CHAR_INVERTED_QUESTION 173
+#define CHAR_GUILLEMET_L 174
+#define CHAR_GUILLEMET_R 175
+
+// B.
+#define CHAR_BLOCK1 176
+#define CHAR_BLOCK2 177
+#define CHAR_BLOCK3 178
+#define CHAR_VLINE 179
+#define CHAR_TEE_W 180
+#define CHAR_TEE_W_DOUBLE_H 181
+#define CHAR_TEE_W_DOUBLE_V 182
+#define CHAR_TEE_NE_DOUBLE_V 183
+#define CHAR_TEE_NE_DOUBLE_H 184
+#define CHAR_TEE_W_DOUBLE 185
+#define CHAR_VLINE_DOUBLE 186
+#define CHAR_TEE_NE_DOUBLE 187
+#define CHAR_TEE_SE_DOUBLE 188
+#define CHAR_TEE_SE_DOUBLE_V 189
+#define CHAR_TEE_SE_DOUBLE_H 190
+#define CHAR_NE 191
+
+// C.
+#define CHAR_SW 192
+#define CHAR_TEE_N 193
+#define CHAR_TEE_S 194
+#define CHAR_TEE_W 195
+#define CHAR_HLINE 196
+#define CHAR_CROSS 197
+#define CHAR_TEE_E_DOUBLE_H 198
+#define CHAR_TEE_E_DOUBLE_V 199
+#define CHAR_SW_DOUBLE 200
+#define CHAR_NW_DOUBLE 201
+#define CHAR_TEE_N_DOUBLE 202
+#define CHAR_TEE_S_DOUBLE 203
+#define CHAR_TEE_E_DOUBLE 204
+#define CHAR_HLINE_DOUBLE 205
+#define CHAR_CROSS_DOUBLE 206
+#define CHAR_TEE_N_DOUBLE_H 207
+
+// D.
+#define CHAR_TEE_N_DOUBLE_V 208
+#define CHAR_TEE_S_DOUBLE_H 209
+#define CHAR_TEE_S_DOUBLE_V 210
+#define CHAR_SW_DOUBLE_V 211
+#define CHAR_SW_DOUBLE_H 212
+#define CHAR_NW_DOUBLE_H 213
+#define CHAR_NW_DOUBLE_V 214
+#define CHAR_CROSS_DOUBLE_V 215
+#define CHAR_CROSS_DOUBLE_H 216
+#define CHAR_SE 217
+#define CHAR_NW 218
+#define CHAR_RECT_FULL 219
+#define CHAR_RECT_BOTTOM 220
+#define CHAR_RECT_LEFT 221
+#define CHAR_RECT_RIGHT 222
+#define CHAR_RECT_TOP 223
+
+// E.
+#define CHAR_ALPHA 224
+#define CHAR_SCHARF_S 225
+#define CHAR_GAMMA 226
+#define CHAR_PI 227
+#define CHAR_SIGMA 228
+#define CHAR_SIGMA_UPPER 229
+#define CHAR_MU 230
+#define CHAR_TAU 231
+#define CHAR_PHI 232
+#define CHAR_THETA 233
+#define CHAR_OMEGA 234
+#define CHAR_DELTA 235
+#define CHAR_INFINITY 236
+#define CHAR_PHI_UPPER 237
+#define CHAR_EPSILON 238
+#define CHAR_INTERSECTION 239
+
+// F.
+#define CHAR_IDENTICAL 240
+#define CHAR_PLUS_MINUS 241
+#define CHAR_GREATER_EQUAL 242
+#define CHAR_LESS_EQUAL 243
+#define CHAR_TOP_HALF_INTEGRAL 244
+#define CHAR_BOTTOM_HALF_INTEGRAL 245
+#define CHAR_DIVISION 246
+#define CHAR_ALMOST_EQUAL 247
+#define CHAR_DEGREE 248
+#define CHAR_BULLET2 249
+#define CHAR_INTERPUNCT 250
+#define CHAR_SQUAREROOT 251
+#define CHAR_SUPERSCRIPT_N 252
+#define CHAR_SUPERSCRIPT_2 253
+#define CHAR_SQUARE 254
+#define CHAR_NBSP 255
+
+
+
+#endif // CHARACTERS_H
