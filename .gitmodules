@@ -1,8 +1,8 @@
-[submodule "libs/SDL2"]
-	path = libs/SDL2
-	url = https://github.com/libsdl-org/SDL
+[submodule "lib/SDL2"]
+	path = lib/SDL2
+	url = https://github.com/libsdl-org/SDL.git
 	branch = SDL2
-[submodule "libs/SDL2_image"]
-	path = libs/SDL2_image
-	url = https://github.com/libsdl-org/SDL_image
+[submodule "lib/SDL2_image"]
+	path = lib/SDL2_image
+	url = https://github.com/libsdl-org/SDL_image.git
 	branch = SDL2

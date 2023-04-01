@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.2)
 project(graphics)
 
 # Set normal compiler flags
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated -Werror=return-type")
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-deprecated -Wall")
 
 # Checks to see if git is present
 find_package(Git REQUIRED)
@@ -17,12 +17,12 @@ endif()
 
 set(BUILD_SHARED_LIBS OFF)
 
-add_subdirectory(libs/SDL2)
-set(SDL2_INCLUDE_DIRS libs/SDL2/include)
+add_subdirectory(lib/SDL2)
+set(SDL2_INCLUDE_DIRS lib/SDL2/include)
 set(SDL2_LIBRARIES SDL2-static)
 
-add_subdirectory(libs/SDL2_image)
-set(SDL2_IMAGE_INCLUDE_DIRS libs/SDL2_image)
+add_subdirectory(lib/SDL2_image)
+set(SDL2_IMAGE_INCLUDE_DIRS lib/SDL2_image)
 set(SDL2_IMAGE_LIBRARIES SDL2_image)
 
 include_directories(${SDL2_INCLUDE_DIRS})
